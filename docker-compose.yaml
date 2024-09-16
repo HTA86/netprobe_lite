@@ -24,7 +24,7 @@ services:
     image: "plaintextpackets/netprobe:latest"
     pull_policy: always
     volumes:
-      - .:/netprobe_lite
+      - ./:/netprobe_lite
     environment:
       MODULE: "NETPROBE"
     networks:
@@ -39,7 +39,7 @@ services:
     image: "plaintextpackets/netprobe:latest"
     pull_policy: always
     volumes:
-      - .:/netprobe_lite
+      - ./:/netprobe_lite
     environment:
       MODULE: "SPEEDTEST"
     networks:
@@ -54,7 +54,7 @@ services:
     image: "plaintextpackets/netprobe:latest"
     pull_policy: always
     volumes:
-      - .:/netprobe_lite
+      - ./:/netprobe_lite
     environment:
       MODULE: "PRESENTATION"
     networks:
